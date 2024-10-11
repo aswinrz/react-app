@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color:seagreen;
+    font-family: sans-serif;
+}
+
+.todo-container{
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+h1{
+    margin: 0px;
+    margin-bottom: 15px;
+    color: #ababab;
+
+}
+
+.input-section{
+    background-color: #ececec;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 5px 6px #020202ba;
+
+}
+
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid rgb(226, 226, 226);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+     
+}
+
+input::placeholder{
+    color: silver;
+
+
+}
+
+ul{
+    text-align: left;
+    padding: 0px;
+
+}
+
+ul li{
+    display: flex;
+    list-style: none;
+    background:white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: gray;
+    box-shadow: 0 5px 6px #020202ba;
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
+    cursor: pointer;
+}
